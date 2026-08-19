@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SUGARCANE LEAF DISEASES</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Store HTML form submissions in Google Sheets">
+  <link href="./favicon.png" rel="shortcut icon">
+
+  <script src="https://kit.fontawesome.com/8c50bcdcef.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav> 
+        <img src="#" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Detection</a></li>
+          <li><a href="#portfolio">Image Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>AGRICULTURE COMMUNITY SERVICE</p>
+        <h1><span>SUGARCANE LEAF DISEASES</span></h1>
+      </div>
+    </div>
+  </div>
+
+  <!-----about----->
+  <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/wall.jpeg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Sugarcane</h1>
+            <p>Sugarcane leaf diseases are caused by various pathogens including fungi, bacteria, and viruses. These diseases can affect the photosynthetic ability of the plant, reduce yield, and impact sugar quality. </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('healthy')">HEALTHY</p>
+              <p class="tab-links" onclick="opentab('rust')">RUST</p>
+              <p class="tab-links" onclick="opentab('redrot')">REDROT</p>
+              <p class="tab-links" onclick="opentab('mosaic')">MOSAIC</p>
+              <p class="tab-links" onclick="opentab('yellow')">YELLOW</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="healthy">
+              <ul>
+                <li><span>Healthy Sugarcane Leaf</span><br><br>
+                • Color: Uniform dark to medium green.<br>
+                •	Texture: Smooth, glossy surface with no spots or streaks.<br>
+                •	Shape: Straight, erect leaves with parallel venation.<br>
+                •	Appearance: No signs of wilting, yellowing, or deformation.<br>
+                •	Significance: Indicates proper nutrition, good plant health, and high productivity</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="rust">
+              <ul>
+                <li><span>Red Rot (Colletotrichum falcatum)</span><br><br>
+                •	Cause: Fungal infection.<br>
+                •	Symptoms:<br>
+                o	Initially affects the stalk but can spread to leaves.<br>
+                o	Leaves may dry from the tip downward (leaf drying starts from top).<br>
+                o	Red discoloration with white patches in the internal tissues of stalks.<br>
+                •	Spread: Through soil, infected plant debris, and tools.</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="redrot">
+              <ul>
+                <li><span>Rust (Puccinia melanocephala – Brown Rust / Puccinia kuehnii – Orange Rust)</span><br><br>
+                •	Cause: Fungal spores.<br>
+                •	Symptoms:<br>
+                o	Brown (or orange, depending on the type) pustules on the underside of leaves.<br>
+                o	Yellowing or necrosis around the pustules.<br>
+                o	Leaf drying and reduced photosynthesis.<br>
+                •	Spread: Wind-borne spores.</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="mosaic">
+              <ul>
+                <li><span>Sugarcane Mosaic Disease</span><br><br>
+                •	Cause: Virus (SCMV or SrMV).<br>
+                •	Symptoms:<br>
+                o	Mosaic pattern: alternating light green and dark green patches or streaks.<br>
+                o	Leaf may appear mottled or speckled.<br>
+                o	Leaf crinkling or mild distortion in severe cases.<br>
+                o	Plant may be stunted with reduced vigor.<br>
+                •	Spread: Mainly by aphids and infected planting material.</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="yellow">
+              <ul>
+                <li><span>Yellow Leaf Disease (Sugarcane Yellow Leaf Virus - SCYLV)</span><br><br>
+                •	Cause: Viral infection.<br>
+                •	Symptoms:<br>
+                o	Yellowing of the midrib and leaf blade, especially in young leaves.<br>
+                o	Reduced tillering and stunted growth.<br>
+                o	May remain symptomless in some varieties.<br>
+                •	Spread: Aphids (especially Melanaphis sacchari).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-----services----->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Detection</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-desktop"></i>
+        <h2>AI-powered Symptom Checker</h2>
+        <p>Upload Photo</p>
+        <a href="#" target="_blank">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-clipboard-check"></i>
+        <h2>Field Diagnosis Tools</h2>
+        <p>Disease Calculators or Forecasting Models</p>
+        <a href="#" target="_blank">Learn More</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-mobile"></i>
+        <h2>Mobile App Integration</h2>
+        <p>Downloadable Tools</p>
+        <a href="#" target="_blank">Learn More</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-------protfolio------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Image Gallery of Symptoms</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/healthy.jpg">
+        <div class="Layer">
+          <h3>Healthy SUGARCANE LEAF</h3>
+          <p>•	Color: Uniform dark to medium green.</p>
+          <a href="#" target="_blank"><i class="fa-solid fa-photo-film"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/rust.jpg">
+        <div class="Layer">
+          <h3>RUST</h3>
+          <p>•	Cause: Fungal spores.</p>
+          <a href="#" target="_blank"><i class="fa-solid fa-photo-film"></i></a>
+        </div>
+      </div>
+      
+      <div class="work">
+        <img src="images/redrot.jpg">
+        <div class="Layer">
+          <h3>REDROT</h3>
+          <p>•	Cause: Fungal infection.</p>
+          <a href="#" target="_blank"><i class="fa-solid fa-photo-film"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/mosaic.jpg">
+        <div class="Layer">
+          <h3>MOSAIC</h3>
+          <p>•	Cause: Virus (SCMV or SrMV).</p>
+          <a href="#" target="_blank"><i class="fa-solid fa-photo-film"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/yellow.jpg">
+        <div class="Layer">
+          <h3>YELLOW</h3>
+          <p>•	Cause: Viral infection.</p>
+          <a href="#" target="_blank"><i class="fa-solid fa-photo-film"></i></a>
+        </div>
+      </div>
+      
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+<!------contact------>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> ssalmaanika@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i> +639541786600</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="/images/intro.pdf" download class="btn btn2">Download Details</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required> 
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright @anika <i class="fa-solid fa-face-smile-wink"></i></p>
+  </div>
+</div>
+  <script>  
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemeu= document.getElementById("sidemenu");
+    function openmenu(){
+      sidemeu.style.right= "0";
+    }
+
+    function closemenu(){
+      sidemeu.style.right= "-200px";
+    }
+  </script> 
+
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxsIsyknKoNFBCLShM3U_xcOU8JomTUy4n5Ab9skcRb2xni-bhInk6PSbqoKjItzVY/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById(msg)
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
